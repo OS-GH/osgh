@@ -1,6 +1,6 @@
 [![CodeQL](https://github.com/os-gh/osgh/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/os-gh/osgh/actions/workflows/codeql-analysis.yml)
 # OS-GH
-OS with support for Git and GitHub.
+Open source operating system, with support for Git and GitHub.
 
 ## Features
 ### LazyGit
