@@ -1,1 +1,1 @@
-print("Welcome to OS-GH! Type help for help")
+print("Welcome to OS-GH! Type lg to use lazygit")
