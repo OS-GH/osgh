@@ -1,0 +1,41 @@
+name: Automatic triage
+
+description: Add the triage label to new issues and pull requests
+
+branding:
+
+  icon: 'check-square'
+
+  color: 'black'
+
+on: [issues, pull_request]
+
+jobs:
+
+  triage:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+
+      issues: write
+
+      pull-requests: write
+
+    steps:
+
+    - name: Add triage label
+
+      # You may pin to the exact commit or the version.
+
+      # uses: christianvuerings/add-labels@ede518da81f427f037b828421aa08c239bfc7f47
+
+      uses: christianvuerings/add-labels@v1.1
+
+      with:
+
+        # Labels to add
+
+        labels: 
+
+          triage
