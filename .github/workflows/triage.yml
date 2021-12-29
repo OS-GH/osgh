@@ -1,12 +1,9 @@
 name: Automatic triage
 
-description: Add the triage label to new issues and pull requests
 
-branding:
 
-  icon: 'check-square'
 
-  color: 'black'
+
 
 on: [issues, pull_request]
 
